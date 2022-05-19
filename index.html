@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simon dice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <h1>Juguemos a Simon Dice!</h1>
+    <main>
+        <header>
+            <h1>Juguemos a Simon Dice!</h1>
+        </header>
+        <div id="contenedor-turno">
+            <input class="turno-numero" type="text" value="Turno #1" disabled>
+            <input class="turno-quien" type="text" value="Turno de la maquina" disabled>
+        </div>
+        
+        <button id="boton-comenzar" type="button">Comenzar juego</button>
+        <div id="contenedor-juego">
+            <div class="caja-amarilla"></div>
+            <div class="caja-azul"></div>
+            <div class="caja-roja"></div>
+            <div class="caja-verde"></div>
+        </div>
+    </main>
+    
 
-
-    <script src='main.js'></script>
+    <script src="main.js"></script>
 </body>
 </html>
