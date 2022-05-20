@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     font-family: 'Oswald', sans-serif;
 }
 header h1{
@@ -34,6 +34,7 @@ header h1{
     cursor: not-allowed;
     border-radius: 10px;
 }
+
 #boton-comenzar, #boton-reset{
     display: block;
     text-align: center;
@@ -50,8 +51,6 @@ header h1{
     background-color: rgba(70, 64, 64, 1);
     color: rgba(255, 255, 255, 1);
 }
-
-
 #contenedor-juego{
     width: 400px;
     height: 400px;
